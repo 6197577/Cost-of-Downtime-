@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Kit | Electric DRs Designs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo"><img src="your-logo-white.png" alt="Electric DRs Designs Logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="generator-installation.html">Services</a></li>
+                    <li><a href="service-area.html">Service Area</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="payment.html">Pay Online</a></li> 
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <a href="tel:304-410-9208" class="phone-number">304-410-9208</a>
+                <a href="contact.html" class="btn">Request Service</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2 style="margin-bottom: 20px;">Purchase Our Smart Home Starter Kit</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 50px;">
+                Begin your smart home journey with our professionally curated starter kit. This package includes smart lighting switches, a smart thermostat, and a central hub. Professional installation can be scheduled after purchase.
+            </p>
+            
+            <div style="display: flex; justify-content: center;">
+                <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+                
+                <stripe-buy-button
+                    buy-button-id="buy_btn_xxxxxxxxxxxxxx" publishable-key="pk_live_xxxxxxxxxxxxxx" >
+                </stripe-buy-button>
+            </div>
+            </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>© 2025 Electric DRs Designs | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
